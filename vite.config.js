@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/sportifyplus-web/'
+  base: '/sportifyplus-web/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
